@@ -12,7 +12,17 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "LSApplicationQueriesSchemes": [
+          "metamask",
+          "trust",
+          "safe",
+          "rainbow",
+          "uniswap"
+          // Add other wallet schemes names here
+        ]
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -22,6 +32,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
-  }
+    },
+    "plugins": [
+      // other plugins,
+      "./queries.js"
+    ],
+  },
+  
 }
