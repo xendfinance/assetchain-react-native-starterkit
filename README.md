@@ -21,9 +21,19 @@ Before you begin, you need to install the following tools:
 
 # Environment Setup
 
-To get started with Asset Chain Mobile Demo App, follow the steps below:
+1. To get started with Asset Chain Mobile Demo App:
 
-1. Clone this repo & install dependencies
+## Using npm starterkit template (Installation)
+
+To start a new project using the Assetchain React Native Starterkit, run:
+
+```bash
+   npx create-expo-app project-name --template  assetchain-react-native-starterkit
+```
+
+## Cloning the Repo
+
+Alternatively, you can clone the repository:
 
 ```bash
 git clone https://github.com/xendfinance/assetchain-react-native-starterkit.git
