@@ -21,7 +21,7 @@ Before you begin, you need to install the following tools:
 
 # Environment Setup
 
-1. To get started with Assetchain Mobile Demo App:
+1. To get started with Asset Chain Mobile Demo App:
 
 ## Using npm starterkit template (Installation)
 
